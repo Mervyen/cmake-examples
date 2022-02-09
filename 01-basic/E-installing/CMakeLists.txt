@@ -43,6 +43,8 @@ install (TARGETS cmake_examples_inst_bin
 # Note: may not work on windows
 install (TARGETS cmake_examples_inst
     LIBRARY DESTINATION lib)
+#Install the binary generated from the target cmake_examples_inst_bin
+#target to the destination ${CMAKE_INSTALL_PREFIX}/bin
 
 # Header files
 install(DIRECTORY ${PROJECT_SOURCE_DIR}/include/ 
